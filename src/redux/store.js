@@ -15,7 +15,7 @@ import { filterReducer } from "./filtersSlice";
 import { modalReducer } from "./modalSlice";
 
 const persistConfig = {
-  key: "counter-persist",
+  key: "contacts",
   version: 1,
   storage,
 };

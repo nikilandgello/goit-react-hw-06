@@ -20,6 +20,7 @@ body {
 }
 
 :root {
+  --font-family: Apple Chancery, cursive;
   --mavka: #200b31;
   --lulu: #3d0d35;
   --purple-night: #541033;
@@ -100,6 +101,7 @@ img {
   margin: 0 auto;
   border: 2px solid var(--lulu);
   margin-bottom: 20px;
+  box-shadow: var(--lulu) 0px 5px 15px;
 }
 
 .container {

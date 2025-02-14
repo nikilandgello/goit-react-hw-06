@@ -24,7 +24,7 @@ const Contact = ({ data: { id, firstname, number } }) => {
           <svg className={css.icon} width={20} height={20}>
             <use href="/sprite.svg#icon-phone"></use>
           </svg>
-          <p className={css.contactDescription}>{number}</p>
+          <p className={css.contactDescription}>+38-{number}</p>
         </div>
       </div>
       <div className={css.blockBtn}>

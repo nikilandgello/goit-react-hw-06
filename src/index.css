@@ -11,7 +11,7 @@ html {
 body {
   font-family: Apple Chancery, cursive;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
 
   margin: 0;
 
@@ -43,9 +43,9 @@ body {
   --lulu: #d9a5b3;
   --purple-night: #b48bac;
   --botdeaux: #b26d81;
-  --light-burgundy: #cc6f7d;
-  --cardinal: #e45c6d;
-  --light-cardinal: #ff758c;
+  --light-burgundy: #9b535e;
+  --cardinal: #bd4855;
+  --light-cardinal: #d95362;
 }
 
 h1,

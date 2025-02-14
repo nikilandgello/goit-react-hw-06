@@ -15,6 +15,10 @@ const EditContactForm = () => {
   const initialValues = {
     firstname: selectedContact.firstname || "",
     number: selectedContact.number || "",
+    lastname: selectedContact.lastname || "",
+    email: selectedContact.email || "",
+    dateofbith: selectedContact.dateofbith || "",
+    notes: selectedContact.notes || "",
   };
 
   const handleSubmit = (values, actions) => {
@@ -36,6 +40,8 @@ const EditContactForm = () => {
         onSubmit={handleSubmit}
         initialValues={initialValues}
         contentBtn="Edit Contact"
+        open={true}
+        btn={false}
       />
     </Modal>
   );

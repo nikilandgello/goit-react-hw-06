@@ -20,6 +20,25 @@
   border-radius: 5px;
   width: 400px;
   box-shadow: var(--botdeaux) 0px 4px 12px;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.modalContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+  cursor: pointer;
+
+  background-color: var(--light-burgundy);
+  border-radius: 10px;
+}
+
+.modalContent::-webkit-scrollbar-track {
+  background-color: var(--botdeaux);
+  padding: 2px;
+  border-radius: 10px; /* округлення куточків */
 }
 
 .closeIcon {

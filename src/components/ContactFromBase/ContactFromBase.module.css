@@ -23,6 +23,13 @@
   transition: border 0.25s;
 }
 
+.textareaForm {
+  resize: none;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 160px;
+}
+
 .inputForm::placeholder {
   color: var(--botdeaux);
 }
@@ -38,6 +45,23 @@
 
 .errorMessage {
   color: var(--light-cardinal) !important;
+}
+
+.BtnMore {
+  background-color: transparent;
+  border: none;
+  color: var(----cardinal);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.BtnMore:hover {
+  background-color: transparent;
+  border: none;
 }
 
 .buttonForm {

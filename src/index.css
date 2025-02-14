@@ -11,7 +11,6 @@ html {
 body {
   font-family: Apple Chancery, cursive;
   line-height: 1.5;
-  font-weight: 500;
 
   margin: 0;
 
@@ -30,6 +29,7 @@ body {
   --light-cardinal: #cc1c39;
 
   font-synthesis: none;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
